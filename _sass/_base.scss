@@ -68,9 +68,13 @@ ul, ol {
 }
 
 li {
+
+    display: inline;  
+    word-spacing: 0.26rem;
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
+        
     }
 }
 
@@ -200,8 +204,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 30px;
+        height: 30px;
         vertical-align: middle;
 
         path {
